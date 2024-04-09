@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"title": "Exposition d'art contemporain",
+		"description": "Découvrez une exposition captivante mettant en vedette des artistes contemporains renommés.",
+		"date": "2024-05-15",
+		"place": "Galerie d'art moderne",
+		"src": "exposition-art-contemporain.jpg",
+		"alt": "Exposition d'art contemporain"
+	},
+	{
+		"id": 2,
+		"title": "Installation d'art éphémère",
+		"description": "Une installation d'art éphémère fascinante qui transformera temporairement un espace public.",
+		"date": "2024-06-20",
+		"place": "Place du centre-ville",
+		"src": "installation-art-ephemere.jpg",
+		"alt": "Installation d'art éphémère"
+	},
+	{
+		"id": 3,
+		"title": "Performance artistique immersive",
+		"description": "Plongez dans une expérience artistique immersive où vous deviendrez partie intégrante de l'œuvre.",
+		"date": "2024-07-10",
+		"place": "Théâtre de rue",
+		"src": "performance-artistique.jpg",
+		"alt": "Performance artistique immersive"
+	},
+	{
+		"id": 4,
+		"title": "Exposition d'art contemporain",
+		"description": "Découvrez une exposition captivante mettant en vedette des artistes contemporains renommés.",
+		"date": "2024-05-15",
+		"place": "Galerie d'art moderne",
+		"src": "exposition-art-contemporain.jpg",
+		"alt": "Exposition d'art contemporain"
+	},
+	{
+		"id": 5,
+		"title": "Installation d'art éphémère",
+		"description": "Une installation d'art éphémère fascinante qui transformera temporairement un espace public.",
+		"date": "2024-06-20",
+		"place": "Place du centre-ville",
+		"src": "installation-art-ephemere.jpg",
+		"alt": "Installation d'art éphémère"
+	},
+	{
+		"id": 6,
+		"title": "Performance artistique immersive",
+		"description": "Plongez dans une expérience artistique immersive où vous deviendrez partie intégrante de l'œuvre.",
+		"date": "2024-07-10",
+		"place": "Théâtre de rue",
+		"src": "performance-artistique.jpg",
+		"alt": "Performance artistique immersive"
+	},{
+		"id": 7,
+		"title": "Exposition d'art contemporain interactif",
+		"description": "Explorez une exposition d'art contemporain où les œuvres réagissent à votre présence, créant ainsi une expérience interactive unique.",
+		"date": "2024-08-15",
+		"place": "Galerie d'art moderne",
+		"src": "exposition-art-interactif.jpg",
+		"alt": "Exposition d'art contemporain interactif"
+	}
+	
+]

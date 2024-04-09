@@ -1,0 +1,12 @@
+.container {
+	padding: 1rem;
+	background-color: var(--bgNavbar);
+	color: var(--text);
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+}
+
+.logo {
+	font-size: 2rem;
+}

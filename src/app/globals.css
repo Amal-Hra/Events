@@ -1,33 +1,79 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+	--bg: #fff;
+	--bgSoft: #eaeaea;
+	--text: #000;
+	--bgNavbar: #0a572b;
+	--textSoft: #777777;
+	--btn: #000000;
+	--btnOver: #b6d8ab;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	color: var(--text);
+	background-color: var(--bg);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.dark {
+	--bg: #000000;
+	--bgSoft: #1f273a;
+	--text: #ddd;
+	--bgNavbar: #0aab65;
+	--textSoft: #eee9e9;
+	--btn: #b6d8ab;
+	--btnOver: #080808;
+	--bgCard: #101c0d;
+	--textCard: #ddd;
+}
+
+.light {
+	--bg: #fff;
+	--bgSoft: #eaeaea;
+	--text: #000;
+	--bgNavbar: #0f6855;
+	--textSoft: #010801;
+	--btn: #000000;
+	--btnOver: #641cf5;
+	--bgCard: #ccdad2;
+	--textCard: #000;
+}
+
+.container {
+	width: 100vw;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	height: calc(100vh);
+	justify-content: space-between;
+	color: var(--text);
+	background-color: var(--bg);
+}
+
+.content {
+	flex: 1;
+}
+
+.footer {
+    background-color: var(--bgNavbar); 
+    color: var(--textSoft); 
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.toggle {
+	color: var(--text);
 }
